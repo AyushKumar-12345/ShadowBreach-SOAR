@@ -1,0 +1,15 @@
+# Create .gitignore
+@"
+venv/
+__pycache__/
+*.pyc
+data/quarantine/*
+data/reports/*
+!data/quarantine/.gitkeep
+!data/reports/.gitkeep
+tests/tmp/
+"@ | Out-File -FilePath .gitignore -Encoding utf8
+
+# Ensure folders persist in git
+New-Item -ItemType File -Path data/quarantine/.gitkeep -Force
+New-Item -ItemType File -Path data/reports/.gitkeep -Force

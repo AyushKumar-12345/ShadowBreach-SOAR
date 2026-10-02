@@ -1,0 +1,18 @@
+[
+  {
+    "alert_id": "NIDS-ALERT-001",
+    "timestamp": 1790951356.1683815,
+    "signature_name": "PORT_SCAN",
+    "priority": "MEDIUM",
+    "src_ip": "198.51.100.42",
+    "dst_ip": "10.0.0.5"
+  },
+  {
+    "alert_id": "NIDS-ALERT-002",
+    "timestamp": 1790951357.1683815,
+    "signature_name": "SYN_FLOOD",
+    "priority": "HIGH",
+    "src_ip": "198.51.100.42",
+    "dst_ip": "10.0.0.5"
+  }
+]

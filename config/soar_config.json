@@ -1,0 +1,14 @@
+{
+  "log_sources": {
+    "edr_path": "data/alerts/canary_alerts.json",
+    "nids_path": "data/alerts/nids_alerts.json"
+  },
+  "containment": {
+    "quarantine_dir": "data/quarantine",
+    "firewall_rule_prefix": "ShadowBreach_Block_",
+    "risk_score_containment_threshold": 70
+  },
+  "reporting": {
+    "output_dir": "data/reports"
+  }
+}

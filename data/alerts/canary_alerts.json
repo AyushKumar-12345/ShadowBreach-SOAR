@@ -1,0 +1,18 @@
+[
+  {
+    "alert_id": "EDR-ALERT-001",
+    "timestamp": 1790951358.1683815,
+    "detection_type": "ENTROPY_RANSOMWARE",
+    "severity": "CRITICAL",
+    "network_context": {
+      "remote_ip": "198.51.100.42"
+    },
+    "process": {
+      "pid": 22544,
+      "name": "python_dummy_ransom.exe"
+    },
+    "file_target": {
+      "path": "C:\\Users\\danda\\OneDrive\\Desktop\\ShadowBreach-SOAR\\data\\quarantine_target.txt"
+    }
+  }
+]
